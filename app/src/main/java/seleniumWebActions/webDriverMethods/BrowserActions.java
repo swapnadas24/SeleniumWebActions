@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BrowserActions {
 
     WebDriver driver;
-    public void startBrowsert(){
+    public void startBrowser(){
 
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -45,7 +45,7 @@ public class BrowserActions {
         }
     }
     public void run() throws InterruptedException {
-        startBrowsert();
+        startBrowser();
         openUrl("https://crio-qkart-frontend-qa.vercel.app/");
         getCurrentUrl();
         getPageTitle();

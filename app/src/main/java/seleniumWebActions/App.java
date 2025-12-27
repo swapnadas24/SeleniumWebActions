@@ -8,6 +8,7 @@ import seleniumWebActions.browserInit.BrowserInit;
 import seleniumWebActions.webActions.ExploreWebElementMethod;
 import seleniumWebActions.webActions.WebElementAction;
 import seleniumWebActions.webDriverMethods.BrowserActions;
+import seleniumWebActions.webDriverMethods.NavigationCommand;
 
 public class App {
 
@@ -26,7 +27,11 @@ public class App {
         exploreWebElementMethod.run();*/
 
         //Call BrowserActions
-        BrowserActions browserActions = new BrowserActions();
-        browserActions.run();
+    /*    BrowserActions browserActions = new BrowserActions();
+        browserActions.run();*/
+
+        //Call NavigationCommand
+        NavigationCommand navigationCommand = new NavigationCommand();
+        navigationCommand.run();
     }
 }
