@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import seleniumWebActions.browserInit.BrowserInit;
 import seleniumWebActions.webActions.ExploreWebElementMethod;
 import seleniumWebActions.webActions.WebElementAction;
+import seleniumWebActions.webDriverMethods.BrowserActions;
 
 public class App {
 
@@ -21,7 +22,11 @@ public class App {
         webElementAction.run();*/
 
         //Call ExploreWebElentMethod
-        ExploreWebElementMethod exploreWebElementMethod=new ExploreWebElementMethod();
-        exploreWebElementMethod.run();
+   /*     ExploreWebElementMethod exploreWebElementMethod=new ExploreWebElementMethod();
+        exploreWebElementMethod.run();*/
+
+        //Call BrowserActions
+        BrowserActions browserActions = new BrowserActions();
+        browserActions.run();
     }
 }
