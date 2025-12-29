@@ -5,6 +5,12 @@ package seleniumWebActions;
 
 import org.openqa.selenium.WebElement;
 import seleniumWebActions.browserInit.BrowserInit;
+import seleniumWebActions.exceptions.WebDriverException;
+import seleniumWebActions.exceptions.WebElementException;
+import seleniumWebActions.locatorMethods.CountNoOfProducts;
+import seleniumWebActions.locatorMethods.FindLocators;
+import seleniumWebActions.locatorMethods.FindLocatorsUsingFindBy;
+import seleniumWebActions.locatorMethods.ProductCountUsingFindElements;
 import seleniumWebActions.webActions.ExploreWebElementMethod;
 import seleniumWebActions.webActions.WebElementAction;
 import seleniumWebActions.webDriverMethods.BrowserActions;
@@ -31,7 +37,31 @@ public class App {
         browserActions.run();*/
 
         //Call NavigationCommand
-        NavigationCommand navigationCommand = new NavigationCommand();
-        navigationCommand.run();
+       /* NavigationCommand navigationCommand = new NavigationCommand();
+        navigationCommand.run();*/
+
+        //Call WebDriverException
+       /* WebDriverException webDriverException=new WebDriverException();
+        webDriverException.run();*/
+
+        //Call WebElementClass
+      /*  WebElementException webElementException=new WebElementException();
+        webElementException.run();*/
+
+        //CallnFindLocators
+      /*  FindLocators findLocators=new FindLocators();
+        findLocators.run();*/
+
+        //Call FindLocatorsUsingFindBy
+        /*FindLocatorsUsingFindBy findLocatorsUsingFindBy = new FindLocatorsUsingFindBy();
+        findLocatorsUsingFindBy.run();
+*/
+        //Call CountNoOfProducts
+       /* CountNoOfProducts countNoOfProducts = new CountNoOfProducts();
+        countNoOfProducts.run();
+*/
+        //Call ProductCountUsingFindElements
+        ProductCountUsingFindElements productCountUsingFindElements = new ProductCountUsingFindElements();
+        productCountUsingFindElements.run();
     }
 }

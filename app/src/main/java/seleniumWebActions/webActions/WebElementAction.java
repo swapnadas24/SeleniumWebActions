@@ -52,7 +52,7 @@ public class WebElementAction {
         password.sendKeys(pwd);
 
         Thread.sleep(2000);
-        System.out.println("Enter password: "+pwd);
+        System.out.println("Enter password: "+pwd.toString());
     }
     //click on LoginQKart button
     public void clickLoginQKart() throws InterruptedException {
