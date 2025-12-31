@@ -12,6 +12,7 @@ import seleniumWebActions.locatorMethods.FindLocators;
 import seleniumWebActions.locatorMethods.FindLocatorsUsingFindBy;
 import seleniumWebActions.locatorMethods.ProductCountUsingFindElements;
 import seleniumWebActions.webActions.ExploreWebElementMethod;
+import seleniumWebActions.webActions.WebActionsofAddingItemToCart;
 import seleniumWebActions.webActions.WebElementAction;
 import seleniumWebActions.webDriverMethods.BrowserActions;
 import seleniumWebActions.webDriverMethods.NavigationCommand;
@@ -61,7 +62,11 @@ public class App {
         countNoOfProducts.run();
 */
         //Call ProductCountUsingFindElements
-        ProductCountUsingFindElements productCountUsingFindElements = new ProductCountUsingFindElements();
-        productCountUsingFindElements.run();
+        /*ProductCountUsingFindElements productCountUsingFindElements = new ProductCountUsingFindElements();
+        productCountUsingFindElements.run();*/
+
+        //Call WebActionsofAddingItemToCart
+        WebActionsofAddingItemToCart webActionsofAddingItemToCart = new WebActionsofAddingItemToCart();
+        webActionsofAddingItemToCart.run();
     }
 }
