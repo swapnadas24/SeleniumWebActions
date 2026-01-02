@@ -66,7 +66,7 @@ public class App {
         productCountUsingFindElements.run();*/
 
         //Call WebActionsofAddingItemToCart
-        WebActionsofAddingItemToCart webActionsofAddingItemToCart = new WebActionsofAddingItemToCart();
-        webActionsofAddingItemToCart.run();
+      /*  WebActionsofAddingItemToCart webActionsofAddingItemToCart = new WebActionsofAddingItemToCart();
+        webActionsofAddingItemToCart.run();*/
     }
 }
