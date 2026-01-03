@@ -52,4 +52,5 @@ application {
     // Define the main class for the application.
     mainClass = 'seleniumWebActions.App'
     mainClass='WebElementsButtonAndEdit.App'
+    mainClass='HyperLinkAndImages.App'
 }

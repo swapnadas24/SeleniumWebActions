@@ -45,11 +45,9 @@ public class LearnTextBox {
     }
 
     //    Read/Retrieve and print the placeholder value “Type your nationality” from “Your nationality” textbox
-    public String getPlaceHolderNationality(WebElement placeHolder) {
+    public void getPlaceHolderNationality(WebElement placeHolder) {
         String placeHolderTxt = null;
         placeHolderTxt = placeHolder.getText();
-
-        return placeHolderTxt;
     }
 
     //    Check whether the “My weight before starting the wellness program(in kgs)” textbox is enabled

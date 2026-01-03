@@ -12,8 +12,9 @@ public class App {
         //Call LearnButton
        /* LearnButton learnButton = new LearnButton();
         learnButton.run();*/
+
         //Call LearnTextBox
-        LearnTextBox learnTextBox = new LearnTextBox();
-        learnTextBox.run();
+        /*LearnTextBox learnTextBox = new LearnTextBox();
+        learnTextBox.run();*/
     }
 }
