@@ -22,7 +22,7 @@ public class App {
     public static void main(String[] args) throws InterruptedException {
 
         //Call BrowserInit
-       /* BrowserInit browserInit = new BrowserInit();
+      /*  BrowserInit browserInit = new BrowserInit();
         browserInit.run();*/
 
         //Call WebElementAction

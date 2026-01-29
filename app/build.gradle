@@ -53,4 +53,6 @@ application {
     mainClass = 'seleniumWebActions.App'
     mainClass='WebElementsButtonAndEdit.App'
     mainClass='HyperLinkAndImages.App'
+    mainClass='WebActionsCheckBoxAndRadioButton.App'
 }
+println "CONFIGURATION PHASE"

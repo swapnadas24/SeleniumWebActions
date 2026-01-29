@@ -12,7 +12,7 @@ public class App {
         learnHyperLink.run();*/
 
         //Call LearnImage
-        LearnImage learnImage = new LearnImage();
-        learnImage.run();
+       /* LearnImage learnImage = new LearnImage();
+        learnImage.run();*/
     }
 }
