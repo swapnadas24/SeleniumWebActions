@@ -33,7 +33,7 @@ public class LearnCheckBox {
         for(WebElement webElement:webElements){
             IsEnabled=webElement.isEnabled();
         }
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         return IsEnabled;
     }
     //    Retrieve and print the “type” attribute value for - FDT,DSA
@@ -41,7 +41,7 @@ public class LearnCheckBox {
 
         String IsValue=null;
         IsValue=webElement.getAttribute(attributeName);
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         return IsValue;
     }
     //    In the checkbox “Your phone has which Operating System (OS)?” -
@@ -57,7 +57,7 @@ public class LearnCheckBox {
                 webElement.click();
                 break;
             }
-            Thread.sleep(3000);
+            Thread.sleep(1000);
         }
         return  IsSelected;
     }
@@ -71,13 +71,13 @@ public class LearnCheckBox {
             if(!day.isSelected()){
                 day.click();
             }
-            Thread.sleep(3000);
+            Thread.sleep(1000);
         }
 
     }
     public void clickOnButton(WebElement webElement) throws InterruptedException {
         webElement.click();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
     }
     //    Close the browser
     public void closeBrowser(){
@@ -103,7 +103,7 @@ public class LearnCheckBox {
         //    Select QA and DSA
         clickOnButton(checkBox_QA);
         System.out.println("QA is selected....:");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         clickOnButton(checkBox_DSA);
         System.out.println("DSA is selected....:");
 
