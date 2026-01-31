@@ -54,5 +54,6 @@ application {
     mainClass='WebElementsButtonAndEdit.App'
     mainClass='HyperLinkAndImages.App'
     mainClass='WebActionsCheckBoxAndRadioButton.App'
+    mainClass='DropDown.App'
 }
 println "CONFIGURATION PHASE"

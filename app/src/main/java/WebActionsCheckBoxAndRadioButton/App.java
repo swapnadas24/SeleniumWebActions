@@ -9,7 +9,7 @@ public class App {
         /*LearnCheckBox learnCheckBox = new LearnCheckBox();
         learnCheckBox.run();*/
 
-        LearnRadioButton learnRadioButton = new LearnRadioButton();
-        learnRadioButton.run();
+      /*  LearnRadioButton learnRadioButton = new LearnRadioButton();
+        learnRadioButton.run();*/
     }
 }
